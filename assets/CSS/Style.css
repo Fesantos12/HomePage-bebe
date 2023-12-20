@@ -248,3 +248,97 @@ header ul li:hover {
     color: var(--vermelho1);
     line-height: 100%;
 }
+
+/* feature section */
+
+.featuresSection {
+    width: 100%;
+    height: 180px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.featuresSection img {
+    width: 40px;
+    height: 40px;
+}
+
+.featuresSection .feature1 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.featuresSection .feature1Texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.featuresSection .feature1 h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    color: var(--cinzaTexto);
+}
+
+.featuresSection .feature1 h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.featuresSection .feature2 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.featuresSection .feature2Texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.featuresSection .feature2 h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    color: var(--cinzaTexto);
+}
+
+.featuresSection .feature2 h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
+}
+
+.featuresSection .feature3 {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.featuresSection .feature3Texto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+}
+
+.featuresSection .feature3 h2 {
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 100%;
+    color: var(--cinzaTexto);
+}
+
+.featuresSection .feature3 h4 {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
+}
