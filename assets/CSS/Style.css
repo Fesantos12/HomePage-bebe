@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300;400;500;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Coiny&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap');
 
 
 * {
@@ -342,3 +343,209 @@ header ul li:hover {
     font-weight: 400;
     line-height: 130%;
 }
+
+/* newArrivals section */
+
+.newArrivals {
+    margin-top: 50px;
+    width: 100%;
+    height: 1070px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 100px;
+}
+
+.newArrivals .titles {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.newArrivals .titles h2 {
+    font-family: 'Coiny', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    color: var(--cinzaTexto);
+    line-height: 120%;
+}
+
+.newArrivals .titles h4 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 14px;
+    font-family: 400;
+    color: var(--cinzaTexto);
+    line-height: 130%;
+}
+
+.newArrivals .products {
+    width: 100%;
+    height: 770px;
+    display: grid;
+    grid-template-columns: repeat(4, 295px);
+    grid-template-rows: repeat(2, 350px);
+    grid-column-gap: 50px;
+    grid-row-gap: 50px;
+    font-family: 'Comfortaa', sans-serif;
+}
+
+.newArrivals .products .product1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.newArrivals .products .product1 h2 {
+    font-size: 16px;
+    color: var(--cinzaTexto);
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.alljunto {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.price {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.price .redprice {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--vermelho1);
+    line-height: 100%;
+}
+
+.price .grayprice {
+    font-family: 'Poppins', sans-serif;
+    font-size: 11px;
+    font-weight: 600;
+    color: var(--cinzaPreço);
+    line-height: 100%;
+}
+
+.unicprice {
+    font-family: 'Poppins', sans-serif;
+    font-size: 13px;
+    font-weight: 600;
+    color: var(--cinzaTexto);
+    line-height: 100%;
+}
+
+.juntinho {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+}
+
+.newArrivals .products .product2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;     
+}
+
+.newArrivals .products .product2 h2 {
+    font-size: 16px;
+    color: var(--cinzaTexto);
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.newArrivals .products .product3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between; 
+}
+
+.newArrivals .products .product3 h2 {
+    font-size: 16px;
+    color: var(--cinzaTexto);
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.newArrivals .products .product4 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.newArrivals .products .product4 h2 {
+    font-size: 16px;
+    color: var(--cinzaTexto);
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.newArrivals .products .product5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.newArrivals .products .product5 h2 {
+    font-size: 16px;
+    color: var(--cinzaTexto);
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.newArrivals .products .product6 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.newArrivals .products .product6 h2 {
+    font-size: 16px;
+    color: var(--cinzaTexto);
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.newArrivals .products .product7 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.newArrivals .products .product7 h2 {
+    font-size: 16px;
+    color: var(--cinzaTexto);
+    font-weight: 600;
+    line-height: 120%;
+}
+
+.newArrivals .products .product8 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;   
+}
+
+.newArrivals .products .product8 h2 {
+    font-size: 16px;
+    color: var(--cinzaTexto);
+    font-weight: 600;
+    line-height: 120%;
+}
+
+
+
