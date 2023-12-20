@@ -547,5 +547,89 @@ header ul li:hover {
     line-height: 120%;
 }
 
+/* banner */
+
+.banner {
+    width: 100%;
+    height: 430px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner .bannerLeft {
+    width: 50%;
+    height: 430px;
+    background-color: #F3FDE9;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+}
+
+.banner .titleline {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.bannerLeft h4 {
+    font-family: 'Coiny', sans-serif;
+    font-size: 32px;
+    font-weight: 400;
+    line-height: 120%;
+    color: var(--cinzaTexto);
+}
+
+.bannerLeft .linhabanner {
+    width: 60%;
+    height: 1px;
+    border: 1px solid var(--cinzaTexto);
+}
+
+.bannerLeft .h2h5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.bannerLeft .h2h5 h2 {
+    font-family: 'Coiny', sans-serif;
+    font-size: 50px;
+    font-weight: 400;
+    color: var(--laranja);
+    line-height: 90%;
+    text-transform: uppercase;
+}
+
+.bannerLeft .h2h5 h5 {
+    font-family: 'Comfortaa', sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 130%;
+    color: var(--cinzaTexto);
+    text-align: center;
+}
+
+.bannerLeft button {
+    width: 190px;
+    height: 48px;
+    background-color: var(--vermelho1);
+    color: white;
+    border: none;
+    border-radius: 24px;
+}
+
+.bannerright {
+    width: 50%;
+    height: 430px;
+    background-image: url(/assets/img/Rectangle\ 38.png);
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
 
 
